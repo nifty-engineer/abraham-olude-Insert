@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
+/*
  * SQL sublanguage: DML (Data Manipulation Language)
  *
  * Now that we can create and drop tables, we need to be able to insert records into the table.
@@ -17,12 +17,10 @@ import java.sql.Statement;
  *  in the above statement:
  *      - "col_1, col_2, ...col_N"  is referring to the column name of the table.
  *      - "val_1, val_2, ...val_N" is referring to the data we are trying to insert into that specific column.
- *
- * Additional reference material if needed: https://www.w3schools.com/sql/sql_insert.asp
- * */
+ */
 public class InsertARecord {
 
-    /**
+    /*
      * Activity: Assuming the table "song" already exists, write the sql statement in the problem1.sql file that allows
      * us to add a new record into the table "song". It should work with any values for title and artist!
      *
@@ -35,7 +33,7 @@ public class InsertARecord {
      *
      * Do not change anything in this code. You should write your sql statement on a single line in the
      * problem1.sql file.
-     * */
+     */
     public boolean problem1(){
 //        write your SQL logic in a single line in the problem1.sql file.
         String sql = FileUtil.parseSQLFile("problem1.sql");
