@@ -1,0 +1,1 @@
+INSERT INTO song (title, artist) VALUES ('Sing and Dance', 'The Music Team');
